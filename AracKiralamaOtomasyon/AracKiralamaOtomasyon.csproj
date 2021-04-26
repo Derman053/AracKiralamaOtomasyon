@@ -66,77 +66,11 @@
     <Compile Include="Formlar\frmAnasayfa.Designer.cs">
       <DependentUpon>frmAnasayfa.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formlar\frmAracEkle.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Formlar\frmAracEkle.Designer.cs">
-      <DependentUpon>frmAracEkle.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Formlar\frmAracListe.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Formlar\frmAracListe.Designer.cs">
-      <DependentUpon>frmAracListe.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Formlar\frmGeriIade.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Formlar\frmGeriIade.Designer.cs">
-      <DependentUpon>frmGeriIade.cs</DependentUpon>
-    </Compile>
     <Compile Include="Formlar\frmGirisEkran.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Formlar\frmGirisEkran.Designer.cs">
       <DependentUpon>frmGirisEkran.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Formlar\frmHasarKayit.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Formlar\frmHasarKayit.Designer.cs">
-      <DependentUpon>frmHasarKayit.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Formlar\frmKayitOl.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Formlar\frmKayitOl.Designer.cs">
-      <DependentUpon>frmKayitOl.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Formlar\frmKurumEkle.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Formlar\frmKurumEkle.Designer.cs">
-      <DependentUpon>frmKurumEkle.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Formlar\frmKurumListe.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Formlar\frmKurumListe.Designer.cs">
-      <DependentUpon>frmKurumListe.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Formlar\frmMusteriEkle.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Formlar\frmMusteriEkle.Designer.cs">
-      <DependentUpon>frmMusteriEkle.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Formlar\frmMusteriListe.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Formlar\frmMusteriListe.Designer.cs">
-      <DependentUpon>frmMusteriListe.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Formlar\frmSatislar.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Formlar\frmSatislar.Designer.cs">
-      <DependentUpon>frmSatislar.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Formlar\frmSozlesme.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Formlar\frmSozlesme.Designer.cs">
-      <DependentUpon>frmSozlesme.cs</DependentUpon>
     </Compile>
     <Compile Include="Models\Arac.cs" />
     <Compile Include="Models\AracKiralama.cs" />
@@ -151,41 +85,8 @@
     <EmbeddedResource Include="Formlar\frmAnasayfa.resx">
       <DependentUpon>frmAnasayfa.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formlar\frmAracEkle.resx">
-      <DependentUpon>frmAracEkle.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Formlar\frmAracListe.resx">
-      <DependentUpon>frmAracListe.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Formlar\frmGeriIade.resx">
-      <DependentUpon>frmGeriIade.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Formlar\frmGirisEkran.resx">
       <DependentUpon>frmGirisEkran.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Formlar\frmHasarKayit.resx">
-      <DependentUpon>frmHasarKayit.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Formlar\frmKayitOl.resx">
-      <DependentUpon>frmKayitOl.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Formlar\frmKurumEkle.resx">
-      <DependentUpon>frmKurumEkle.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Formlar\frmKurumListe.resx">
-      <DependentUpon>frmKurumListe.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Formlar\frmMusteriEkle.resx">
-      <DependentUpon>frmMusteriEkle.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Formlar\frmMusteriListe.resx">
-      <DependentUpon>frmMusteriListe.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Formlar\frmSatislar.resx">
-      <DependentUpon>frmSatislar.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Formlar\frmSozlesme.resx">
-      <DependentUpon>frmSozlesme.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
